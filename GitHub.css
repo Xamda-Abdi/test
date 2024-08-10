@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+        font-family: Arial, sans-serif;
+        background-color:hsl(240, 90%, 4%); 
+        font-weight:50;
+    }   
+.con{
+    margin-top:20px;
+    height: 100px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    
+    
+}
+
+form {
+    background-color:rgb(53, 49, 49);
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+.p1{
+    text-align: right;
+}
+
+
+.form label {
+    
+    font-size: 20px;
+    color:white;
+    text-align: left;
+    
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white; 
+    
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #0366d6;
+    text-decoration: none;
+    margin-bottom: 15px;
+    text-align:right;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color:green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.form button:hover {
+    background-color:rgba(0, 128, 0, 0.76);
+
+}
+
+input[type="text"]:focus {
+    border-color: hsl(240, 69%, 60%);;
+    outline: none;
+}
+
+input[type="password"]:focus {
+    border-color: hsl(240, 69%, 60%);
+    outline: none;
+}
+
+
+.logo {
+    width: 50px; 
+   
+    border-radius: 50%;
+    margin-bottom:15px;
+}
+H1{
+    color: white;
+    font-size: large;
+    
+}
+.CONN{
+    margin-top: 20px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+}
+.h1{
+
+  color: #0366d6;
+  text-align: center;
+ 
+}
+p{
+    
+    color: white;
+    text-align: center;
+}
+
+span{
+    color: #0366d6;
+}
+
+footer{
+    margin-top:60px;
+   flex-wrap: nowrap;
+}
+
+a{
+padding: 20px;
+text-decoration: none;
+color: gray;
+white-space: nowrap;
+
+}
+
+
+
+
+
